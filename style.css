@@ -1,0 +1,111 @@
+body {
+    background: #321414;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.first {
+    display: flex;
+}
+
+.menu {
+    font-size: 20px;
+    text-decoration: none;
+    color: #DFA878;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
+
+.menuSecond {
+    display: flex;
+    border-radius: 50%;
+    background-color: #DFA878;
+    padding: 20px;
+    color: #321414;
+    font-size: 35px;
+    font-family: 'Moon Dance', cursive;
+}
+
+.second {
+    display: flex;
+}
+
+.main {
+    display: flex;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.photoOne {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.arrow {
+    background: #FFDDCA;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.footer {
+    display: flex;
+    background: #FFDDCA;
+    padding: 10px;
+    justify-content: space-around;
+    margin-top: 20px;
+   }
+   @media all and (max-width:1200px) {
+    .header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menuSecond {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .photoOne {
+        width:100%;
+        height:100%;
+    }
+    .arrows {
+        display: none;
+    }
+    .footer {
+        width:100%
+    }
+   }
+
+
+   @media all and (max-width:800px) {
+
+    .menu {
+        font-size: 12px;
+    }
+
+    .menuSecond {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .foot {
+        width: 30px;
+        height:25px
+    } 
+   }
+   

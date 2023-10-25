@@ -1,0 +1,80 @@
+body {
+    background-color: #321414;
+}
+
+.photos {
+    display: flex;
+    justify-content:space-around;
+}
+
+.photosOne {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.photoTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+
+.word {
+   
+    border-radius: 50%;
+    background-color: #FFDDCA;
+    padding: 20px;
+    align-self: center;
+    color: #321414;
+    font-family: 'Moon Dance', cursive;
+    font-size: 35px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.arrow {
+    background-color: #FFDDCA;
+    border-radius: 50%;
+    align-self: center;
+   
+}
+
+@media all and (max-width:1200px) {
+    .photos {
+        justify-content: center;
+    }
+
+    .foodTwo {
+        width:200px
+    }
+    .word {
+        font-size: 25px;
+    }
+}
+@media all and (max-width:800px) {
+    .photos {
+        justify-content: center;
+    }
+    .foodOne {
+        width:150px;
+    }
+    .foodTwo {
+        width:150px;
+    }
+    .word {
+        font-size: 20px;
+    }
+    .photos {
+        display: flex;
+        justify-content:center
+    }
+    .photoTwo {
+        justify-content:center
+       
+    }
+}

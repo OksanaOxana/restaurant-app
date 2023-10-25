@@ -1,0 +1,79 @@
+body {
+    background-color:  #FFDDCA;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-family: 'Moon Dance', cursive;
+    color: #FFDDCA;
+    border-radius: 50%;
+    background-color:  #321414;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.text {
+    background-color: #321414;
+    color: #FFDDCA;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:20%;
+    align-items: center;
+
+}  
+
+.arrow {
+    align-self: center;
+    background-color:  #321414;
+    border-radius: 50%;
+}
+
+@media all and (max-width:1200px) {
+    .photoAbout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media all and (max-width:500px) {
+    .text {
+    font-size: 18px;
+    }
+    .header {
+        font-size: 25px;
+    }
+}
+
+
+   

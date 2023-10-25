@@ -1,0 +1,101 @@
+body {
+    background-color: #FFDDCA;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.food {
+    border-radius: 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    flex:1
+}
+
+.spoon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex:1
+}
+
+.arrow {
+    margin-bottom: 400px;
+    border-radius: 50%;
+    background-color:#321414;;
+     
+}
+
+.photoMenu {
+    flex:1
+}
+
+.main {
+    border-radius: 50%;
+    background-color: #321414;
+    padding: 20px;
+    align-self: center;
+    color: #FFDDCA;
+    font-family: 'Moon Dance', cursive;
+    font-size: 35px;
+}
+button {
+    display: none;
+}
+
+@media all and (max-width:1200px){
+    .food {
+        width:100%
+    }
+    .arrow {
+        display:none;
+    }
+    
+.menu {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main {
+        align-items: flex-start;
+       
+    }
+    button {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        background-color: #321414;
+        color:#FFDDCA;
+        font-size: 25px;
+        border-radius: 20px;
+        }
+    a {
+        text-decoration: none;
+    }
+
+    .btn {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media all and (max-width:500px) {
+    .main {
+        font-size: 25px;
+    }
+    button {
+        font-size: 20px;
+    }
+
+}
+

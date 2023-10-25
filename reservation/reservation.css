@@ -1,0 +1,123 @@
+body {
+    background: #321414;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.header {
+    display: flex;
+}
+
+.mainHeader {
+    border-radius: 50%;
+    background-color:#FFDDCA;
+    padding: 20px;
+    color: #321414;
+    font-size: 35px;
+    font-family: 'Moon Dance', cursive;
+}
+
+.headerTwo {
+    display: flex;
+    align-items: center;
+    font-family: 'Moon Dance', cursive;
+    color:  #FFDDCA;
+    font-size: 20px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:10%;
+    flex:1
+
+}  
+
+
+input {
+    background-color: #FFDDCA;
+    padding: 7px;
+    width:100%;
+    font-family: 'Lato', sans-serif;
+    color: #321414;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    flex:2
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+    color: #FFDDCA;
+    }
+
+.btn {
+    background-color: #FFDDCA;
+    color:#321414;
+    padding: 10px;
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.buttonFind {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    align-self: flex-end;
+    background-color:  #FFDDCA;
+    border-radius: 50%;
+}
+
+.arrows {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerSmall {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width:1200px) {
+    .mainHeader {
+        font-size: 25px;
+    } 
+    
+
+}
+@media all and (max-width:800px) {
+
+    .containerSmall {
+        display: flex;
+        flex-direction: column;
+    }   
+    input {
+        padding: 5px;
+        width:100%;
+        font-size: 15px;
+    } 
+    label {
+        font-size: 15px;
+    }
+    .btn {
+        padding:7px;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+}
+

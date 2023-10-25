@@ -1,0 +1,75 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/restaurant-interior_1127-3392.jpg?size=626&ext=jpg&uid=R110490361&ga=GA1.2.760507894.1680008824&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    background-color: #321414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 725px;
+    width: 600px;
+    border-radius: 40px;
+    color: white;
+}
+
+form {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Moon Dance', cursive;
+    color: #DFA878;
+    align-self: center;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DFA878;
+}
+
+#addTip {
+    font-family: 'Lato', sans-serif;
+    background-color: #CA955C;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btn {
+    font-family: 'Lato', sans-serif;
+    background-color:#A27B5C; 
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#tip {
+    font-family: 'Lato', sans-serif;
+    display: none;
+}
+
+#showTotalAmountToPay {
+    display: flex;
+}
+
+#billSplit, #TotalTip, #TotalAmount {
+    font-family: 'Lato', sans-serif;
+    background-color: #DFA878;;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
